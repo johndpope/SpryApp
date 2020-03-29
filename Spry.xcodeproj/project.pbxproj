@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7875575B826F791DF1672CD5 /* Pods_Spry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E2D6864CF83224E614EC1B /* Pods_Spry.framework */; };
+		EA0192B220965B8800C3DC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA01925420965B7A00C3DC49 /* Assets.xcassets */; };
+		EA19D543207620B200733CBC /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D525207620AD00733CBC /* TransitionManager.swift */; };
+		EA19D544207620B200733CBC /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D526207620AE00733CBC /* SpringLabel.swift */; };
+		EA19D545207620B200733CBC /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D527207620AE00733CBC /* SpringView.swift */; };
+		EA19D546207620B200733CBC /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D528207620AE00733CBC /* ImageLoader.swift */; };
+		EA19D547207620B200733CBC /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D52A207620AE00733CBC /* Misc.swift */; };
+		EA19D548207620B200733CBC /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D52B207620AE00733CBC /* UnwindSegue.swift */; };
+		EA19D549207620B200733CBC /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D52C207620AF00733CBC /* DesignableButton.swift */; };
+		EA19D54A207620B200733CBC /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D52D207620AF00733CBC /* DesignableTextView.swift */; };
+		EA19D54B207620B200733CBC /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D52E207620AF00733CBC /* BlurView.swift */; };
+		EA19D54C207620B200733CBC /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D52F207620AF00733CBC /* KeyboardLayoutConstraint.swift */; };
+		EA19D54D207620B200733CBC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA19D530207620AF00733CBC /* Info.plist */; };
+		EA19D54E207620B200733CBC /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D531207620B000733CBC /* AsyncButton.swift */; };
+		EA19D54F207620B200733CBC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D532207620B000733CBC /* LoadingView.swift */; };
+		EA19D550207620B200733CBC /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D533207620B000733CBC /* SpringButton.swift */; };
+		EA19D552207620B200733CBC /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D535207620B000733CBC /* SpringAnimation.swift */; };
+		EA19D553207620B200733CBC /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D536207620B000733CBC /* SpringTextView.swift */; };
+		EA19D554207620B200733CBC /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D537207620B000733CBC /* AsyncImageView.swift */; };
+		EA19D555207620B200733CBC /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D538207620B100733CBC /* AutoTextView.swift */; };
+		EA19D556207620B200733CBC /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D539207620B100733CBC /* SpringTextField.swift */; };
+		EA19D557207620B200733CBC /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D53A207620B100733CBC /* DesignableTabBarController.swift */; };
+		EA19D558207620B200733CBC /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D53B207620B100733CBC /* DesignableLabel.swift */; };
+		EA19D559207620B200733CBC /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D53C207620B100733CBC /* DesignableView.swift */; };
+		EA19D55A207620B200733CBC /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D53D207620B100733CBC /* TransitionZoom.swift */; };
+		EA19D55B207620B200733CBC /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D53E207620B100733CBC /* Spring.swift */; };
+		EA19D55C207620B200733CBC /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D53F207620B200733CBC /* DesignableTextField.swift */; };
+		EA19D55D207620B200733CBC /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D540207620B200733CBC /* SoundPlayer.swift */; };
+		EA19D55E207620B200733CBC /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D541207620B200733CBC /* SpringImageView.swift */; };
+		EA19D55F207620B200733CBC /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19D542207620B200733CBC /* DesignableImageView.swift */; };
+		EA19D56320762A0100733CBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA19D56220762A0100733CBC /* Foundation.framework */; };
+		EA19D56920765E0200733CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA19D56820765E0200733CBC /* Main.storyboard */; };
+		EA34A09E2077A3120069020C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA34A09D2077A3120069020C /* GoogleService-Info.plist */; };
+		EA34A0A02078A7A50069020C /* TypesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34A09F2078A7A50069020C /* TypesTableViewController.swift */; };
+		EA34A0A22078A8900069020C /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34A0A12078A8900069020C /* GoogleDataProvider.swift */; };
+		EA34A0A8207ADF7D0069020C /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34A0A7207ADF7D0069020C /* GooglePlace.swift */; };
+		EA34A0AA207AF3CE0069020C /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34A0A9207AF3CE0069020C /* PlaceMarker.swift */; };
+		EA34A0AC207B84FC0069020C /* MarkerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34A0AB207B84FB0069020C /* MarkerInfoView.swift */; };
+		EA34A0AE207B853F0069020C /* MarkerInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA34A0AD207B853F0069020C /* MarkerInfoView.xib */; };
+		EA34A0B0207B9F110069020C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34A0AF207B9F110069020C /* UIViewExtension.swift */; };
+		EA34A0B7207E98EE0069020C /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34A0B6207E98EE0069020C /* SidebarView.swift */; };
+		EA39F7FD201B2A24003711C2 /* 11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA39F7FC201B2A23003711C2 /* 11.jpeg */; };
+		EA39F7FF201B2A38003711C2 /* WhatsApp Image 2018-01-26 at 10.15.50.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA39F7FE201B2A37003711C2 /* WhatsApp Image 2018-01-26 at 10.15.50.jpeg */; };
+		EA39F801201B2A49003711C2 /* 1234.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA39F800201B2A48003711C2 /* 1234.jpeg */; };
+		EA3CDF80208DECF800C3F581 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3CDF7F208DECF800C3F581 /* AboutViewController.swift */; };
+		EA3CDF82208DFD8E00C3F581 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3CDF81208DFD8E00C3F581 /* EditProfileViewController.swift */; };
+		EA4FC43A2080B40C00B7820D /* TrueUserPropertyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4FC4392080B40C00B7820D /* TrueUserPropertyTableViewCell.swift */; };
+		EA544BE32085FBDA005D6894 /* PoiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA544BE22085FBDA005D6894 /* PoiDetailViewController.swift */; };
+		EA544BE52086431A005D6894 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA544BE42086431A005D6894 /* LogViewController.swift */; };
+		EA544BE7208712F2005D6894 /* AtmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA544BE6208712F2005D6894 /* AtmList.swift */; };
+		EA544BE920871373005D6894 /* ATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA544BE820871373005D6894 /* ATM.swift */; };
+		EA544BEB20871471005D6894 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA544BEA20871471005D6894 /* LocationManager.swift */; };
+		EA544BED208714AE005D6894 /* PlacesAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA544BEC208714AE005D6894 /* PlacesAPIManager.swift */; };
+		EA544BEF20872089005D6894 /* AtmsMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA544BEE20872089005D6894 /* AtmsMapViewController.swift */; };
+		EA544BF1208BC40C005D6894 /* verificationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA544BF0208BC40C005D6894 /* verificationCodeViewController.swift */; };
+		EA544BF3208BE20B005D6894 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA544BF2208BE20B005D6894 /* Settings.bundle */; };
+		EA61ECAF200FBC0F00FA00E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA61ECAE200FBC0F00FA00E2 /* AppDelegate.swift */; };
+		EA61ECB9200FBC0F00FA00E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA61ECB7200FBC0F00FA00E2 /* LaunchScreen.storyboard */; };
+		EA61ECDD200FBCCD00FA00E2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA61ECCE200FBCCD00FA00E2 /* Icon.png */; };
+		EA61ECE7200FF24000FA00E2 /* 13173090_1752132458363773_5235833302217244187_o[1].jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA61ECE4200FF23F00FA00E2 /* 13173090_1752132458363773_5235833302217244187_o[1].jpg */; };
+		EA61ECE8200FF24000FA00E2 /* the-federal-palace-hotel-lagos-26282.png in Resources */ = {isa = PBXBuildFile; fileRef = EA61ECE5200FF24000FA00E2 /* the-federal-palace-hotel-lagos-26282.png */; };
+		EA61ECE9200FF24000FA00E2 /* How to survive in lagos by Lagos city chic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA61ECE6200FF24000FA00E2 /* How to survive in lagos by Lagos city chic.jpg */; };
+		EA61ECED200FF70E00FA00E2 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA61ECEC200FF70E00FA00E2 /* 11.jpg */; };
+		EA61ECEF200FF80C00FA00E2 /* png format.png in Resources */ = {isa = PBXBuildFile; fileRef = EA61ECEE200FF80B00FA00E2 /* png format.png */; };
+		EA61ECF32011BE2900FA00E2 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA61ECF22011BE2900FA00E2 /* VerifyViewController.swift */; };
+		EA61ECF52011BE4500FA00E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA61ECF42011BE4500FA00E2 /* HomeViewController.swift */; };
+		EA815278209D651A002EC4AA /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA815277209D651A002EC4AA /* Users.swift */; };
+		EA81527D20A21A40002EC4AA /* ScreenLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA81527C20A21A40002EC4AA /* ScreenLaunchViewController.swift */; };
+		EAB9616F2076C7110041A067 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = EAB9616E2076C7110041A067 /* style.json */; };
+		EACA1C0F2073C7310027019D /* City Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EACA1C0E2073C72F0027019D /* City Hall.jpg */; };
+		EACA1C112073C74A0027019D /* Museums-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EACA1C102073C7480027019D /* Museums-2.jpg */; };
+		EACA1C132073C7740027019D /* Museums-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EACA1C122073C7720027019D /* Museums-5.jpg */; };
+		EACA1C452073CD530027019D /* atm-machine.png in Resources */ = {isa = PBXBuildFile; fileRef = EACA1C442073CD530027019D /* atm-machine.png */; };
+		EACA1C4B20741DF00027019D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA1C4A20741DF00027019D /* MapViewController.swift */; };
+		EACA1C612074AB8A0027019D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EACA1C602074AB8A0027019D /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04E1ECD64CDCD0276E5C5E65 /* Pods-Spry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spry.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spry/Pods-Spry.release.xcconfig"; sourceTree = "<group>"; };
+		11E2D6864CF83224E614EC1B /* Pods_Spry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED585EB940740DD4A889A59 /* Pods-Spry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spry/Pods-Spry.debug.xcconfig"; sourceTree = "<group>"; };
+		EA01925420965B7A00C3DC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		EA19D525207620AD00733CBC /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = SOURCE_ROOT; };
+		EA19D526207620AE00733CBC /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = SOURCE_ROOT; };
+		EA19D527207620AE00733CBC /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = SOURCE_ROOT; };
+		EA19D528207620AE00733CBC /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = SOURCE_ROOT; };
+		EA19D529207620AE00733CBC /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = SOURCE_ROOT; };
+		EA19D52A207620AE00733CBC /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = SOURCE_ROOT; };
+		EA19D52B207620AE00733CBC /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = SOURCE_ROOT; };
+		EA19D52C207620AF00733CBC /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = SOURCE_ROOT; };
+		EA19D52D207620AF00733CBC /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = SOURCE_ROOT; };
+		EA19D52E207620AF00733CBC /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = SOURCE_ROOT; };
+		EA19D52F207620AF00733CBC /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = SOURCE_ROOT; };
+		EA19D530207620AF00733CBC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		EA19D531207620B000733CBC /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = SOURCE_ROOT; };
+		EA19D532207620B000733CBC /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = SOURCE_ROOT; };
+		EA19D533207620B000733CBC /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = SOURCE_ROOT; };
+		EA19D535207620B000733CBC /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = SOURCE_ROOT; };
+		EA19D536207620B000733CBC /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = SOURCE_ROOT; };
+		EA19D537207620B000733CBC /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = SOURCE_ROOT; };
+		EA19D538207620B100733CBC /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = SOURCE_ROOT; };
+		EA19D539207620B100733CBC /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = SOURCE_ROOT; };
+		EA19D53A207620B100733CBC /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = SOURCE_ROOT; };
+		EA19D53B207620B100733CBC /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = SOURCE_ROOT; };
+		EA19D53C207620B100733CBC /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = SOURCE_ROOT; };
+		EA19D53D207620B100733CBC /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = SOURCE_ROOT; };
+		EA19D53E207620B100733CBC /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = SOURCE_ROOT; };
+		EA19D53F207620B200733CBC /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = SOURCE_ROOT; };
+		EA19D540207620B200733CBC /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = SOURCE_ROOT; };
+		EA19D541207620B200733CBC /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = SOURCE_ROOT; };
+		EA19D542207620B200733CBC /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = SOURCE_ROOT; };
+		EA19D56220762A0100733CBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA19D56820765E0200733CBC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		EA34A09D2077A3120069020C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA34A09F2078A7A50069020C /* TypesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesTableViewController.swift; sourceTree = "<group>"; };
+		EA34A0A12078A8900069020C /* GoogleDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
+		EA34A0A7207ADF7D0069020C /* GooglePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
+		EA34A0A9207AF3CE0069020C /* PlaceMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
+		EA34A0AB207B84FB0069020C /* MarkerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerInfoView.swift; sourceTree = "<group>"; };
+		EA34A0AD207B853F0069020C /* MarkerInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MarkerInfoView.xib; path = "../../../Downloads/Feed_Me_Starter/Feed Me/Views/MarkerInfoView.xib"; sourceTree = "<group>"; };
+		EA34A0AF207B9F110069020C /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		EA34A0B6207E98EE0069020C /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		EA39F7FC201B2A23003711C2 /* 11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 11.jpeg; path = ../../../Downloads/11.jpeg; sourceTree = "<group>"; };
+		EA39F7FE201B2A37003711C2 /* WhatsApp Image 2018-01-26 at 10.15.50.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "WhatsApp Image 2018-01-26 at 10.15.50.jpeg"; path = "../../../Downloads/WhatsApp Image 2018-01-26 at 10.15.50.jpeg"; sourceTree = "<group>"; };
+		EA39F800201B2A48003711C2 /* 1234.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1234.jpeg; path = ../../../Downloads/1234.jpeg; sourceTree = "<group>"; };
+		EA3CDF7F208DECF800C3F581 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		EA3CDF81208DFD8E00C3F581 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		EA4FC4392080B40C00B7820D /* TrueUserPropertyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueUserPropertyTableViewCell.swift; sourceTree = "<group>"; };
+		EA4FC4412080CD2D00B7820D /* TrueSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TrueSDK.framework; path = "../../Library/Developer/Xcode/DerivedData/TrueSDKSample-eegscduqmuhyzkclegikwswlugdn/Build/Products/Debug-iphoneos/TrueSDK.framework"; sourceTree = "<group>"; };
+		EA544BE22085FBDA005D6894 /* PoiDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoiDetailViewController.swift; sourceTree = "<group>"; };
+		EA544BE42086431A005D6894 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		EA544BE6208712F2005D6894 /* AtmList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmList.swift; sourceTree = "<group>"; };
+		EA544BE820871373005D6894 /* ATM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATM.swift; sourceTree = "<group>"; };
+		EA544BEA20871471005D6894 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		EA544BEC208714AE005D6894 /* PlacesAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesAPIManager.swift; sourceTree = "<group>"; };
+		EA544BEE20872089005D6894 /* AtmsMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmsMapViewController.swift; sourceTree = "<group>"; };
+		EA544BF0208BC40C005D6894 /* verificationCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verificationCodeViewController.swift; sourceTree = "<group>"; };
+		EA544BF2208BE20B005D6894 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		EA61ECAB200FBC0F00FA00E2 /* Spry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA61ECAE200FBC0F00FA00E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA61ECB8200FBC0F00FA00E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA61ECBA200FBC0F00FA00E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA61ECCE200FBCCD00FA00E2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../Downloads/Icon.png; sourceTree = "<group>"; };
+		EA61ECE4200FF23F00FA00E2 /* 13173090_1752132458363773_5235833302217244187_o[1].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "13173090_1752132458363773_5235833302217244187_o[1].jpg"; path = "../../../Downloads/Untitled_message/13173090_1752132458363773_5235833302217244187_o[1].jpg"; sourceTree = "<group>"; };
+		EA61ECE5200FF24000FA00E2 /* the-federal-palace-hotel-lagos-26282.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "the-federal-palace-hotel-lagos-26282.png"; path = "../../../Downloads/Untitled_message/the-federal-palace-hotel-lagos-26282.png"; sourceTree = "<group>"; };
+		EA61ECE6200FF24000FA00E2 /* How to survive in lagos by Lagos city chic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "How to survive in lagos by Lagos city chic.jpg"; path = "../../../Downloads/Untitled_message/How to survive in lagos by Lagos city chic.jpg"; sourceTree = "<group>"; };
+		EA61ECEC200FF70E00FA00E2 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 11.jpg; path = ../../../Downloads/11.jpg; sourceTree = "<group>"; };
+		EA61ECEE200FF80B00FA00E2 /* png format.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "png format.png"; path = "../../../Downloads/png format.png"; sourceTree = "<group>"; };
+		EA61ECF22011BE2900FA00E2 /* VerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		EA61ECF42011BE4500FA00E2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EA815277209D651A002EC4AA /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		EA81527C20A21A40002EC4AA /* ScreenLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenLaunchViewController.swift; sourceTree = "<group>"; };
+		EAB9616E2076C7110041A067 /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = style.json; path = Spry/style.json; sourceTree = "<group>"; };
+		EABD0452208179740002E5D3 /* Spry.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spry.entitlements; sourceTree = "<group>"; };
+		EACA1C0E2073C72F0027019D /* City Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "City Hall.jpg"; path = "../../../Downloads/appyCity/appyCity/Pics/City Hall.jpg"; sourceTree = "<group>"; };
+		EACA1C102073C7480027019D /* Museums-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Museums-2.jpg"; path = "../../../Downloads/appyCity/appyCity/Pics/Museums/Museums-2.jpg"; sourceTree = "<group>"; };
+		EACA1C122073C7720027019D /* Museums-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Museums-5.jpg"; path = "../../../Downloads/appyCity/appyCity/Pics/Museums/Museums-5.jpg"; sourceTree = "<group>"; };
+		EACA1C442073CD530027019D /* atm-machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "atm-machine.png"; path = "../../../Downloads/appyCity/appyCity/Pics/atm-machine.png"; sourceTree = "<group>"; };
+		EACA1C4A20741DF00027019D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EACA1C602074AB8A0027019D /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA61ECA8200FBC0F00FA00E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA19D56320762A0100733CBC /* Foundation.framework in Frameworks */,
+				7875575B826F791DF1672CD5 /* Pods_Spry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6952C6E58088DF34975CE828 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA19D56220762A0100733CBC /* Foundation.framework */,
+				EA4FC4412080CD2D00B7820D /* TrueSDK.framework */,
+				11E2D6864CF83224E614EC1B /* Pods_Spry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C96ED70B5C2E77291343FC87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ED585EB940740DD4A889A59 /* Pods-Spry.debug.xcconfig */,
+				04E1ECD64CDCD0276E5C5E65 /* Pods-Spry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA61ECA2200FBC0F00FA00E2 = {
+			isa = PBXGroup;
+			children = (
+				EACA1C602074AB8A0027019D /* Podfile */,
+				EAB9616E2076C7110041A067 /* style.json */,
+				EA61ECAD200FBC0F00FA00E2 /* Spry */,
+				EA61ECAC200FBC0F00FA00E2 /* Products */,
+				C96ED70B5C2E77291343FC87 /* Pods */,
+				6952C6E58088DF34975CE828 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA61ECAC200FBC0F00FA00E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA61ECAB200FBC0F00FA00E2 /* Spry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA61ECAD200FBC0F00FA00E2 /* Spry */ = {
+			isa = PBXGroup;
+			children = (
+				EABD0452208179740002E5D3 /* Spry.entitlements */,
+				EA19D56820765E0200733CBC /* Main.storyboard */,
+				EA19D530207620AF00733CBC /* Info.plist */,
+				EA34A09D2077A3120069020C /* GoogleService-Info.plist */,
+				EA815277209D651A002EC4AA /* Users.swift */,
+				EA815279209D6614002EC4AA /* View Controllers */,
+				EA544BF2208BE20B005D6894 /* Settings.bundle */,
+				EA61ECAE200FBC0F00FA00E2 /* AppDelegate.swift */,
+				EA34A0A7207ADF7D0069020C /* GooglePlace.swift */,
+				EA34A0AF207B9F110069020C /* UIViewExtension.swift */,
+				EA34A0A12078A8900069020C /* GoogleDataProvider.swift */,
+				EACA1C4A20741DF00027019D /* MapViewController.swift */,
+				EA544BE22085FBDA005D6894 /* PoiDetailViewController.swift */,
+				EA34A0B6207E98EE0069020C /* SidebarView.swift */,
+				EA34A0AB207B84FB0069020C /* MarkerInfoView.swift */,
+				EA34A0AD207B853F0069020C /* MarkerInfoView.xib */,
+				EA61ECF42011BE4500FA00E2 /* HomeViewController.swift */,
+				EA34A09F2078A7A50069020C /* TypesTableViewController.swift */,
+				EA34A0A9207AF3CE0069020C /* PlaceMarker.swift */,
+				EA01925420965B7A00C3DC49 /* Assets.xcassets */,
+				EA61ECB7200FBC0F00FA00E2 /* LaunchScreen.storyboard */,
+				EA81527C20A21A40002EC4AA /* ScreenLaunchViewController.swift */,
+				EA19D53E207620B100733CBC /* Spring.swift */,
+				EA19D535207620B000733CBC /* SpringAnimation.swift */,
+				EA19D531207620B000733CBC /* AsyncButton.swift */,
+				EA19D537207620B000733CBC /* AsyncImageView.swift */,
+				EA19D538207620B100733CBC /* AutoTextView.swift */,
+				EA19D52E207620AF00733CBC /* BlurView.swift */,
+				EA19D52C207620AF00733CBC /* DesignableButton.swift */,
+				EA19D542207620B200733CBC /* DesignableImageView.swift */,
+				EA19D53B207620B100733CBC /* DesignableLabel.swift */,
+				EA19D53A207620B100733CBC /* DesignableTabBarController.swift */,
+				EA19D53F207620B200733CBC /* DesignableTextField.swift */,
+				EA19D52D207620AF00733CBC /* DesignableTextView.swift */,
+				EA19D53C207620B100733CBC /* DesignableView.swift */,
+				EA19D528207620AE00733CBC /* ImageLoader.swift */,
+				EA19D52F207620AF00733CBC /* KeyboardLayoutConstraint.swift */,
+				EA19D532207620B000733CBC /* LoadingView.swift */,
+				EA19D52A207620AE00733CBC /* Misc.swift */,
+				EA19D540207620B200733CBC /* SoundPlayer.swift */,
+				EA19D529207620AE00733CBC /* Spring.h */,
+				EA19D533207620B000733CBC /* SpringButton.swift */,
+				EA19D541207620B200733CBC /* SpringImageView.swift */,
+				EA19D526207620AE00733CBC /* SpringLabel.swift */,
+				EA19D539207620B100733CBC /* SpringTextField.swift */,
+				EA19D536207620B000733CBC /* SpringTextView.swift */,
+				EA19D527207620AE00733CBC /* SpringView.swift */,
+				EA19D525207620AD00733CBC /* TransitionManager.swift */,
+				EA19D53D207620B100733CBC /* TransitionZoom.swift */,
+				EA19D52B207620AE00733CBC /* UnwindSegue.swift */,
+				EACA1C442073CD530027019D /* atm-machine.png */,
+				EA39F800201B2A48003711C2 /* 1234.jpeg */,
+				EA39F7FE201B2A37003711C2 /* WhatsApp Image 2018-01-26 at 10.15.50.jpeg */,
+				EA61ECEC200FF70E00FA00E2 /* 11.jpg */,
+				EA61ECCE200FBCCD00FA00E2 /* Icon.png */,
+				EA61ECEE200FF80B00FA00E2 /* png format.png */,
+				EA39F7FC201B2A23003711C2 /* 11.jpeg */,
+				EACA1C102073C7480027019D /* Museums-2.jpg */,
+				EACA1C0E2073C72F0027019D /* City Hall.jpg */,
+				EA61ECE4200FF23F00FA00E2 /* 13173090_1752132458363773_5235833302217244187_o[1].jpg */,
+				EACA1C122073C7720027019D /* Museums-5.jpg */,
+				EA61ECE6200FF24000FA00E2 /* How to survive in lagos by Lagos city chic.jpg */,
+				EA61ECE5200FF24000FA00E2 /* the-federal-palace-hotel-lagos-26282.png */,
+				EA61ECBA200FBC0F00FA00E2 /* Info.plist */,
+			);
+			path = Spry;
+			sourceTree = "<group>";
+		};
+		EA815279209D6614002EC4AA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA3CDF81208DFD8E00C3F581 /* EditProfileViewController.swift */,
+				EA3CDF7F208DECF800C3F581 /* AboutViewController.swift */,
+				EA544BEE20872089005D6894 /* AtmsMapViewController.swift */,
+				EA544BE42086431A005D6894 /* LogViewController.swift */,
+				EA544BE6208712F2005D6894 /* AtmList.swift */,
+				EA544BEA20871471005D6894 /* LocationManager.swift */,
+				EA544BEC208714AE005D6894 /* PlacesAPIManager.swift */,
+				EA544BE820871373005D6894 /* ATM.swift */,
+				EA544BF0208BC40C005D6894 /* verificationCodeViewController.swift */,
+				EA61ECF22011BE2900FA00E2 /* VerifyViewController.swift */,
+				EA4FC4392080B40C00B7820D /* TrueUserPropertyTableViewCell.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA61ECAA200FBC0F00FA00E2 /* Spry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA61ECBD200FBC0F00FA00E2 /* Build configuration list for PBXNativeTarget "Spry" */;
+			buildPhases = (
+				F54961BCB8C2A2DFAE3D1087 /* [CP] Check Pods Manifest.lock */,
+				EA61ECA7200FBC0F00FA00E2 /* Sources */,
+				EA61ECA8200FBC0F00FA00E2 /* Frameworks */,
+				EA61ECA9200FBC0F00FA00E2 /* Resources */,
+				F3BEDA533D4AF02E876E6726 /* [CP] Copy Pods Resources */,
+				98D9CAD2E71EDD78318D9974 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spry;
+			productName = Spry;
+			productReference = EA61ECAB200FBC0F00FA00E2 /* Spry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA61ECA3200FBC0F00FA00E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Spry Enterprise";
+				TargetAttributes = {
+					EA61ECAA200FBC0F00FA00E2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EA61ECA6200FBC0F00FA00E2 /* Build configuration list for PBXProject "Spry" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA61ECA2200FBC0F00FA00E2;
+			productRefGroup = EA61ECAC200FBC0F00FA00E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA61ECAA200FBC0F00FA00E2 /* Spry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA61ECA9200FBC0F00FA00E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA61ECE9200FF24000FA00E2 /* How to survive in lagos by Lagos city chic.jpg in Resources */,
+				EA61ECDD200FBCCD00FA00E2 /* Icon.png in Resources */,
+				EA19D54D207620B200733CBC /* Info.plist in Resources */,
+				EA544BF3208BE20B005D6894 /* Settings.bundle in Resources */,
+				EA61ECB9200FBC0F00FA00E2 /* LaunchScreen.storyboard in Resources */,
+				EACA1C0F2073C7310027019D /* City Hall.jpg in Resources */,
+				EACA1C132073C7740027019D /* Museums-5.jpg in Resources */,
+				EACA1C452073CD530027019D /* atm-machine.png in Resources */,
+				EA61ECE7200FF24000FA00E2 /* 13173090_1752132458363773_5235833302217244187_o[1].jpg in Resources */,
+				EA0192B220965B8800C3DC49 /* Assets.xcassets in Resources */,
+				EACA1C612074AB8A0027019D /* Podfile in Resources */,
+				EA39F801201B2A49003711C2 /* 1234.jpeg in Resources */,
+				EA19D56920765E0200733CBC /* Main.storyboard in Resources */,
+				EA61ECEF200FF80C00FA00E2 /* png format.png in Resources */,
+				EA39F7FF201B2A38003711C2 /* WhatsApp Image 2018-01-26 at 10.15.50.jpeg in Resources */,
+				EA61ECED200FF70E00FA00E2 /* 11.jpg in Resources */,
+				EAB9616F2076C7110041A067 /* style.json in Resources */,
+				EA61ECE8200FF24000FA00E2 /* the-federal-palace-hotel-lagos-26282.png in Resources */,
+				EA34A09E2077A3120069020C /* GoogleService-Info.plist in Resources */,
+				EACA1C112073C74A0027019D /* Museums-2.jpg in Resources */,
+				EA34A0AE207B853F0069020C /* MarkerInfoView.xib in Resources */,
+				EA39F7FD201B2A24003711C2 /* 11.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98D9CAD2E71EDD78318D9974 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Spry/Pods-Spry-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spry/Pods-Spry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3BEDA533D4AF02E876E6726 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Spry/Pods-Spry-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spry/Pods-Spry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F54961BCB8C2A2DFAE3D1087 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA61ECA7200FBC0F00FA00E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA19D54F207620B200733CBC /* LoadingView.swift in Sources */,
+				EA81527D20A21A40002EC4AA /* ScreenLaunchViewController.swift in Sources */,
+				EA19D557207620B200733CBC /* DesignableTabBarController.swift in Sources */,
+				EA34A0A02078A7A50069020C /* TypesTableViewController.swift in Sources */,
+				EA61ECAF200FBC0F00FA00E2 /* AppDelegate.swift in Sources */,
+				EA19D552207620B200733CBC /* SpringAnimation.swift in Sources */,
+				EA19D55E207620B200733CBC /* SpringImageView.swift in Sources */,
+				EA19D543207620B200733CBC /* TransitionManager.swift in Sources */,
+				EA34A0AC207B84FC0069020C /* MarkerInfoView.swift in Sources */,
+				EA61ECF32011BE2900FA00E2 /* VerifyViewController.swift in Sources */,
+				EA19D556207620B200733CBC /* SpringTextField.swift in Sources */,
+				EA544BE920871373005D6894 /* ATM.swift in Sources */,
+				EA544BE32085FBDA005D6894 /* PoiDetailViewController.swift in Sources */,
+				EA815278209D651A002EC4AA /* Users.swift in Sources */,
+				EA19D553207620B200733CBC /* SpringTextView.swift in Sources */,
+				EA34A0B7207E98EE0069020C /* SidebarView.swift in Sources */,
+				EA4FC43A2080B40C00B7820D /* TrueUserPropertyTableViewCell.swift in Sources */,
+				EA61ECF52011BE4500FA00E2 /* HomeViewController.swift in Sources */,
+				EA544BED208714AE005D6894 /* PlacesAPIManager.swift in Sources */,
+				EA544BF1208BC40C005D6894 /* verificationCodeViewController.swift in Sources */,
+				EA19D54C207620B200733CBC /* KeyboardLayoutConstraint.swift in Sources */,
+				EA544BEB20871471005D6894 /* LocationManager.swift in Sources */,
+				EA19D558207620B200733CBC /* DesignableLabel.swift in Sources */,
+				EA19D54E207620B200733CBC /* AsyncButton.swift in Sources */,
+				EACA1C4B20741DF00027019D /* MapViewController.swift in Sources */,
+				EA34A0AA207AF3CE0069020C /* PlaceMarker.swift in Sources */,
+				EA19D545207620B200733CBC /* SpringView.swift in Sources */,
+				EA19D554207620B200733CBC /* AsyncImageView.swift in Sources */,
+				EA19D548207620B200733CBC /* UnwindSegue.swift in Sources */,
+				EA19D547207620B200733CBC /* Misc.swift in Sources */,
+				EA34A0A22078A8900069020C /* GoogleDataProvider.swift in Sources */,
+				EA19D550207620B200733CBC /* SpringButton.swift in Sources */,
+				EA3CDF80208DECF800C3F581 /* AboutViewController.swift in Sources */,
+				EA19D54A207620B200733CBC /* DesignableTextView.swift in Sources */,
+				EA19D55D207620B200733CBC /* SoundPlayer.swift in Sources */,
+				EA19D55B207620B200733CBC /* Spring.swift in Sources */,
+				EA19D55C207620B200733CBC /* DesignableTextField.swift in Sources */,
+				EA544BE7208712F2005D6894 /* AtmList.swift in Sources */,
+				EA19D549207620B200733CBC /* DesignableButton.swift in Sources */,
+				EA34A0A8207ADF7D0069020C /* GooglePlace.swift in Sources */,
+				EA544BE52086431A005D6894 /* LogViewController.swift in Sources */,
+				EA19D546207620B200733CBC /* ImageLoader.swift in Sources */,
+				EA19D555207620B200733CBC /* AutoTextView.swift in Sources */,
+				EA3CDF82208DFD8E00C3F581 /* EditProfileViewController.swift in Sources */,
+				EA34A0B0207B9F110069020C /* UIViewExtension.swift in Sources */,
+				EA19D55F207620B200733CBC /* DesignableImageView.swift in Sources */,
+				EA19D54B207620B200733CBC /* BlurView.swift in Sources */,
+				EA19D55A207620B200733CBC /* TransitionZoom.swift in Sources */,
+				EA19D544207620B200733CBC /* SpringLabel.swift in Sources */,
+				EA19D559207620B200733CBC /* DesignableView.swift in Sources */,
+				EA544BEF20872089005D6894 /* AtmsMapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA61ECB7200FBC0F00FA00E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA61ECB8200FBC0F00FA00E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA61ECBB200FBC0F00FA00E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA61ECBC200FBC0F00FA00E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA61ECBE200FBC0F00FA00E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED585EB940740DD4A889A59 /* Pods-Spry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Spry/Spry.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SF5EVA36S9;
+				INFOPLIST_FILE = Spry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spry.Spry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		EA61ECBF200FBC0F00FA00E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E1ECD64CDCD0276E5C5E65 /* Pods-Spry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Spry/Spry.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SF5EVA36S9;
+				INFOPLIST_FILE = Spry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spry.Spry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA61ECA6200FBC0F00FA00E2 /* Build configuration list for PBXProject "Spry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA61ECBB200FBC0F00FA00E2 /* Debug */,
+				EA61ECBC200FBC0F00FA00E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA61ECBD200FBC0F00FA00E2 /* Build configuration list for PBXNativeTarget "Spry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA61ECBE200FBC0F00FA00E2 /* Debug */,
+				EA61ECBF200FBC0F00FA00E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA61ECA3200FBC0F00FA00E2 /* Project object */;
+}
